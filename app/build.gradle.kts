@@ -66,4 +66,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+//    for accompanist permission library
+    val accompanist = "0.33.2-alpha"
+    implementation("com.google.accompanist:accompanist-permissions:$accompanist")
 }
